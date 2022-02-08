@@ -3,7 +3,7 @@ from twilio.rest import Client
 
 # Info to get access to weather data from openweathermap.org
 OWN_End_point = 'https://api.openweathermap.org/data/2.5/onecall'
-api_key = 'd25eb52f3e63ba37c8f34e17c61f8551'
+api_key = '#################'
 # lat_istambul = 41.038870  # cause it's raining
 # long_istambul = 28.981420
 # This lat and long numbers are for mexico city :
@@ -14,7 +14,7 @@ LONG = -99.134209
 # Info to get access to SMS sender by twilio
 
 account_sid = 'ACc6096965c9fb86011af5fd28baa46fca'
-auth_token = '244f997f42ad098d79bfb0e587f92ea5'
+auth_token = '####################'
 client = Client(account_sid, auth_token)
 my_twilio_number = '##########'
 my_number = '+########'  # Note: You need to verify this number in Twilio
