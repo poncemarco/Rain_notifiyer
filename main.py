@@ -12,13 +12,12 @@ LONG = -99.134209
 
 
 # Info to get access to SMS sender by twilio
-#account_sid = os.environ['TWILIO_ACCOUNT_SID']
-#auth_token = os.environ['TWILIO_AUTH_TOKEN']
+
 account_sid = 'ACc6096965c9fb86011af5fd28baa46fca'
 auth_token = '244f997f42ad098d79bfb0e587f92ea5'
 client = Client(account_sid, auth_token)
-my_twilio_number = '+18646894145'
-my_number = '+525546476943'  # Note: You need to verify this number in Twilio
+my_twilio_number = '##########'
+my_number = '+########'  # Note: You need to verify this number in Twilio
 weather_params = {
     'lat': LAT,    # 17.551480, this is for Chilpancingo
     'lon': LONG,   # -99.500570,
